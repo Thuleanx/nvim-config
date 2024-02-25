@@ -94,10 +94,20 @@ _G.packer_plugins = {
     path = "C:\\Users\\Allison\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\calendar.vim",
     url = "https://github.com/itchyny/calendar.vim"
   },
+  ["cmp-buffer"] = {
+    loaded = true,
+    path = "C:\\Users\\Allison\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
+    url = "https://github.com/hrsh7th/cmp-buffer"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "C:\\Users\\Allison\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
+  ["cmp-path"] = {
+    loaded = true,
+    path = "C:\\Users\\Allison\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-path",
+    url = "https://github.com/hrsh7th/cmp-path"
   },
   ["conform.nvim"] = {
     loaded = true,
@@ -196,6 +206,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\Allison\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["rust-tools.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\Allison\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rust-tools.nvim",
+    url = "https://github.com/simrat39/rust-tools.nvim"
+  },
   ["symbols-outline.nvim"] = {
     loaded = true,
     path = "C:\\Users\\Allison\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\symbols-outline.nvim",
@@ -230,6 +245,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\Allison\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-devicons",
     url = "https://github.com/ryanoasis/vim-devicons"
+  },
+  ["vim-vsnip"] = {
+    loaded = true,
+    path = "C:\\Users\\Allison\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-vsnip",
+    url = "https://github.com/hrsh7th/vim-vsnip"
   },
   ["which-key.nvim"] = {
     config = { "\27LJ\2\nt\0\0\3\0\a\0\0156\0\0\0009\0\1\0+\1\2\0=\1\2\0006\0\0\0009\0\1\0)\1,\1=\1\3\0006\0\4\0'\2\5\0B\0\2\0029\0\6\0004\2\0\0B\0\2\1K\0\1\0\nsetup\14which-key\frequire\15timeoutlen\ftimeout\6o\bvim\0" },

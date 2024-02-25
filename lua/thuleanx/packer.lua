@@ -91,6 +91,9 @@ return packer.startup(function(use)
 			{ "neovim/nvim-lspconfig" },
 			-- Autocompletion
 			{ "hrsh7th/nvim-cmp" },
+			{ "hrsh7th/cmp-path" },
+			{ "hrsh7th/cmp-buffer" },
+			{ "hrsh7th/vim-vsnip" },
 			{ "hrsh7th/cmp-nvim-lsp" },
 			{ "L3MON4D3/LuaSnip" },
 		},
@@ -166,4 +169,6 @@ return packer.startup(function(use)
 		"nvim-telescope/telescope-file-browser.nvim",
 		requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" },
 	})
+
+    use('simrat39/rust-tools.nvim')
 end)
