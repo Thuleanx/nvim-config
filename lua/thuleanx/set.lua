@@ -1,4 +1,4 @@
-vim.opt.guicursor = ""
+-- vim.opt.guicursor = ""
 
 vim.opt.number = true
 vim.opt.relativenumber = true
@@ -34,7 +34,8 @@ vim.opt.splitbelow = true
 vim.opt.splitright = true
 
 -- fold stuff
-vim.opt.foldenable = false
+vim.opt.foldenable = true
+vim.opt.foldmethod = "syntax"
 vim.opt.foldlevelstart = 5
 vim.opt.foldnestmax = 10
 -- end fold
