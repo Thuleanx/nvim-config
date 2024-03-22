@@ -31,5 +31,5 @@ vim.keymap.set("v", "<leader>d", "\"_d")
 
 -- start a search and replace on the current word
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
-vim.keymap.set("n", "<leader>tt", ":vsp<CR>:terminal<CR>jjA")
+-- vim.keymap.set("n", "<leader>tt", ":vsp<CR>:terminal<CR>jjA")
 
